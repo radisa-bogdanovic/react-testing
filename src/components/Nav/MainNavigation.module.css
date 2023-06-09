@@ -1,0 +1,29 @@
+.container {
+  max-width: 100%;
+  height: 6rem;
+  margin: auto;
+  text-decoration: none;
+  background-color: #567c63;
+ 
+}
+
+.nav-items {
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem;
+  font-size: 1.5rem;
+}
+
+.nav-items a {
+  text-decoration: none;
+  padding-left: 1rem;
+}
+
+.nav-items :hover,
+.nav-items :active {
+  color: var(--color-primary-800);
+}
+
+.active {
+  color: var(--color-primary-800);
+}

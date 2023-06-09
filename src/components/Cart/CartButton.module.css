@@ -1,0 +1,29 @@
+.button {
+    background-color: transparent;
+    border-color: white;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  .button:hover,
+  .button:active {
+    color: white;
+  }
+  
+  .button span {
+    margin: 0 1rem;
+  }
+
+  .cart{
+    font-size: 1rem;
+    color: white;
+  }
+  
+  .badge {
+    background-color: #90ca32;
+    border-radius: 30px;
+    font-weight: bold;
+    padding: 0.15rem 1.25rem;
+    color: #1d1d1d;
+  }
